@@ -1,0 +1,128 @@
+    .sm-logo {
+        position: relative;
+        width: 230px;
+    }
+    
+    .sm-category h4 {
+        left: 0;
+        padding: 5px;
+        width: 300px;
+        opacity: 0.8;
+        background-color: #242424;
+        color: white;
+    }
+    
+    .popup {
+        background-color: white;
+        border: 1px solid #242424;
+        color: #242424;
+    }
+    
+    .nav-pills .nav-link.active {
+        font-size: 16px;
+        background-color: #fbb710;
+    }
+    
+    .container {
+        position: relative;
+        text-align: left;
+    }
+    
+    .top-left {
+        position: absolute;
+        background-color: #242424;
+        opacity: 0.8;
+        top: 5px;
+        left: 5px;
+        border: 10px;
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    .top-left p {
+        color: white;
+        margin: 0;
+    }
+    
+    .address-detail p {
+        font-size: 16px;
+        text-align: left;
+        margin: 0;
+    }
+    
+    #popup-form {
+        display: flex;
+    }
+    
+    .company-container {
+        overflow: hidden;
+    }
+    
+    .supplier_item .line {
+        width: 100px;
+        height: 3px;
+        background-color: #fbb710;
+        margin-bottom: 15px;
+        display: block;
+    }
+    
+    .company-product-photo {
+        width: 100%;
+        object-fit: cover;
+        /* background-size: cover; */
+    }
+    
+    .company-header img {
+        width: 100vw;
+        box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+    }
+    
+    .company-container .company-img img {
+        height: 120px;
+        box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .logo {
+        /* margin: 15px;
+    padding: 15px; */
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+        box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.2), 0 0px 10px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .company-cover img {
+        width: 100vw;
+        box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+        object-fit: cover;
+    }
+    
+    p {
+        font-family: "Noto Sans", sans-serif;
+    }
+    
+    .supplier_item {
+        border-radius: 5px;
+        box-shadow: 1px 4px 3px 1px rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .carousel .slide {
+        width: 100%;
+        height: 66.67vh;
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    #coming_events {
+        display:block;
+        width:100%;
+        top:150px;
+        left:1px;
+        right:1px;
+        bottom:150px; 
+        position:absolute; 
+        z-index:9999;
+    }
+    
