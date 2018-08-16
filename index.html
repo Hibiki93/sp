@@ -21,8 +21,6 @@
 
 
 
-
-
     <!-- Search Wrapper Area Start -->
     <nav class="sm_search_area navbar d-none d-md-block">
         <div class="container-fluid">
@@ -45,14 +43,25 @@
     <div class="main-content-wrapper d-flex clearfix">
         <!-- Mobile Nav (max width 767px)-->
         <div class="mobile-nav">
-            <!-- Navbar Brand -->
-            <div class="sm-navbar-brand">
-                <a href="index.html"><img src="img/core-img/logo.gif" alt=""></a>
+            <div class="container">
+                <div class="row">
+                    <!-- Navbar Brand -->
+                    <div class="col-10 ">
+                        <a href="index.html"><img src="img/core-img/logo.gif" alt=""></a>
+                        <div class="search-content-m">
+                            <form action="#" method="get">
+                                <input type="search" name="search" id="search" placeholder="Type your keyword...">
+                                <button type="submit"><i class="fa fa-search"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- Navbar Toggler -->
+                    <div class="sm-navbar-toggler col-2">
+                        <span></span><span></span><span></span>
+                    </div>
+                </div>
             </div>
-            <!-- Navbar Toggler -->
-            <div class="sm-navbar-toggler">
-                <span></span><span></span><span></span>
-            </div>
+
         </div>
 
         <!-- Header Area Start -->
