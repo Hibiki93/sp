@@ -10,7 +10,7 @@
     <title>Supplier Malaysia | Category</title>
 
     <!-- Favicon  -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <!-- <link rel="icon" href="img/core-img/favicon.ico"> -->
 
     <!-- Core Style CSS -->
     <link rel="stylesheet" href="css/core-style.css">
@@ -20,24 +20,20 @@
 
 <body>
     <!-- Search Wrapper Area Start -->
-    <div class="search-wrapper section-padding-100">
-        <div class="search-close">
-            <i class="fa fa-close" aria-hidden="true"></i>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="search-content">
-                        <img src="img/core-img/logo.gif" alt="">
-                        <form action="#" method="get">
-                            <input type="search" name="search" id="search" placeholder="Type your keyword...">
-                            <button type="submit"><i class="fa fa-search"></i></button>
-                        </form>
-                    </div>
-                </div>
+    <nav class="sm_search_area navbar d-none d-md-block">
+        <div class="container-fluid">
+            <div class="navbar-header col-12 col-md-6 col-lg-3">
+                <a href="index.html"><img src="img/core-img/logo.gif" alt=""></a>
+            </div>
+            <div class="search-content col-12 col-md-6 col-lg-5">
+                <form action="#" method="get">
+                    <input type="search" name="search" id="search" placeholder="Type your keyword...">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
             </div>
         </div>
-    </div>
+        </div>
+    </nav>
     <!-- Search Wrapper Area End -->
 
     <!-- ##### Main Content Wrapper Start ##### -->
@@ -62,24 +58,24 @@
                 <i class="fa fa-close" aria-hidden="true"></i>
             </div>
             <!-- Logo -->
-            <div class="d-none d-md-block sm-logo mb-15">
+            <!-- <div class="d-none d-md-block sm-logo mb-15">
                 <a href="index.html"><img src="img/core-img/logo.gif" alt=""></a>
-            </div>
+            </div> -->
             <!-- sm Nav -->
             <nav class="sm-nav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="category-accommodation.html">Category</a></li>
                     <li class="active"><a href="category-supplier.html">Supplier</a></li>
-                    <li><a href="#" class="search-nav"><i class="fa fa-search"></i> Search</a></li>
+                    <!-- <li><a href="#" class="search-nav"><i class="fa fa-search"></i> Search</a></li> -->
                 </ul>
             </nav>
             <div class="sm-btn-group mb-250"></div>
             <!-- Button Group -->
             <div class="sm-btn-group mb-30">
-                    <a href="#">EN</a>&nbsp
-                    |&nbsp<a href="#">BM</a>&nbsp
-                    |&nbsp<a href="#">CN</a>&nbsp
+                <a href="#">EN</a>&nbsp |&nbsp
+                <a href="#">BM</a>&nbsp |&nbsp
+                <a href="#">中文</a>&nbsp
                 <a href="joinUs.html" class="btn sm-btn mb-15">Join Us</a>
                 <ul class="sm-nav">
                     <li style="font-size:.8rem">We current have</li>
@@ -174,7 +170,7 @@
                         <div class="row">
                             <!-- single supplier -->
                             <div class="col-12 col-md-6 mb-30">
-                                <div class="container supplier_item">
+                                <div class="container supplier_item" style="display:inline-block;">
                                     <div class="row">
                                         <div class="col-md-4 col-12 mt-15">
                                             <img class="logo mb-15" src="img/product-img/index.png" alt="company_name">
@@ -184,19 +180,27 @@
                                             <a href="company-details.html">
                                                 <h6>Company Name</h6>
                                             </a>
-                                            <p>Make Some Thing </p>
-                                            <a href="category-automotive.html">
-                                                <p class="btn popup">More Product</p>
-                                            </a>
+                                            <p>Category: accommodation, automotive
+                                            </p>
                                         </div>
-                                        <div class="col-4 col-md-4 mb-15">
-                                            <img src="img/product-img/pro-big-1.jpg">
-                                        </div>
-                                        <div class="col-4 col-md-4 mb-15">
-                                            <img src="img/product-img/pro-big-1.jpg">
-                                        </div>
-                                        <div class="col-4 col-md-4 mb-15">
-                                            <img src="img/product-img/pro-big-1.jpg">
+                                        <div class="col-12 container mb-15 ">
+                                            <div class="row padding-15">
+                                                <div class="col-4 padding-0">
+                                                    <a href="product-details.html">
+                                                        <img src="img/product-img/pro-big-1.jpg">
+                                                    </a>
+                                                </div>
+                                                <div class="col-4 padding-0">
+                                                    <a href="product-details.html">
+                                                        <img src="img/product-img/pro-big-1.jpg">
+                                                    </a>
+                                                </div>
+                                                <div class="col-4 padding-0">
+                                                    <a href="category-automotive.html">
+                                                        <h5 class="more_product text-center">More &nbsp; Product</h5>
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -214,49 +218,27 @@
                                             <a href="company-details.html">
                                                 <h6>Company Name</h6>
                                             </a>
-                                            <p>Make Some Thing </p>
-                                            <a href="category-automotive.html">
-                                                <p class="btn popup">More Product</p>
-                                            </a>
+                                            <p>Category: accommodation, automotive, computer & internet technology, education,fashion, food, health & beauty
+                                            </p>
                                         </div>
-                                        <div class="col-4 col-md-4 mb-15">
-                                            <img src="img/product-img/pro-big-1.jpg">
-                                        </div>
-                                        <div class="col-4 col-md-4 mb-15">
-                                            <img src="img/product-img/pro-big-1.jpg">
-                                        </div>
-                                        <div class="col-4 col-md-4 mb-15">
-                                            <img src="img/product-img/pro-big-1.jpg">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- single supplier -->
-                            <div class="col-12 col-md-6 mb-30">
-                                <div class="container supplier_item">
-                                    <div class="row">
-                                        <div class="col-md-4 col-12 mt-15">
-                                            <img class="logo mb-15" src="img/product-img/index.png" alt="company_name">
-                                        </div>
-                                        <div class="col-12 col-md-7 text-left mt-15">
-                                            <div class="line"></div>
-                                            <a href="company-details.html">
-                                                <h6>Company Name</h6>
-                                            </a>
-                                            <p>Make Some Thing </p>
-                                            <a href="category-automotive.html">
-                                                <p class="btn popup">More Product</p>
-                                            </a>
-                                        </div>
-                                        <div class="col-4 col-md-4 mb-15">
-                                            <img src="img/product-img/pro-big-1.jpg">
-                                        </div>
-                                        <div class="col-4 col-md-4 mb-15">
-                                            <img src="img/product-img/pro-big-1.jpg">
-                                        </div>
-                                        <div class="col-4 col-md-4 mb-15">
-                                            <img src="img/product-img/pro-big-1.jpg">
+                                        <div class="col-12 container mb-15 ">
+                                            <div class="row padding-15">
+                                                <div class="col-4 padding-0">
+                                                    <a href="product-details.html">
+                                                        <img src="img/product-img/pro-big-1.jpg">
+                                                    </a>
+                                                </div>
+                                                <div class="col-4 padding-0">
+                                                    <a href="product-details.html">
+                                                        <img src="img/product-img/pro-big-1.jpg">
+                                                    </a>
+                                                </div>
+                                                <div class="col-4 padding-0">
+                                                    <a href="category-automotive.html">
+                                                        <h5 class="more_product text-center"> More &nbsp; Product</h5>
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -274,19 +256,66 @@
                                             <a href="company-details.html">
                                                 <h6>Company Name</h6>
                                             </a>
-                                            <p>Make Some Thing </p>
-                                            <a href="category-automotive.html">
-                                                <p class="btn popup">More Product</p>
+                                            <p>Category: accommodation, automotive, computer & internet technology, education, electronics
+                                            </p>
+                                        </div>
+                                        <div class="col-12 container mb-15 ">
+                                            <div class="row padding-15">
+                                                <div class="col-4 padding-0">
+                                                    <a href="product-details.html">
+                                                        <img src="img/product-img/pro-big-1.jpg">
+                                                    </a>
+                                                </div>
+                                                <div class="col-4 padding-0">
+                                                    <a href="product-details.html">
+                                                        <img src="img/product-img/pro-big-1.jpg">
+                                                    </a>
+                                                </div>
+                                                <div class="col-4 padding-0">
+                                                    <a href="category-automotive.html">
+                                                        <h5 class="more_product text-center">More &nbsp; Product</h5>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- single supplier -->
+                            <div class="col-12 col-md-6 mb-30">
+                                <div class="container supplier_item">
+                                    <div class="row">
+                                        <div class="col-md-4 col-12 mt-15">
+                                            <img class="logo mb-15" src="img/product-img/index.png" alt="company_name">
+                                        </div>
+                                        <div class="col-12 col-md-7 text-left mt-15">
+                                            <div class="line"></div>
+                                            <a href="company-details.html">
+                                                <h6>Company Name</h6>
                                             </a>
+                                            <p>Category: accommodation, automotive, computer & internet technology, education, health & beauty
+                                            </p>
                                         </div>
-                                        <div class="col-4 col-md-4 mb-15">
-                                            <img src="img/product-img/pro-big-1.jpg">
-                                        </div>
-                                        <div class="col-4 col-md-4 mb-15">
-                                            <img src="img/product-img/pro-big-1.jpg">
-                                        </div>
-                                        <div class="col-4 col-md-4 mb-15">
-                                            <img src="img/product-img/pro-big-1.jpg">
+                                        <div class="col-12 container mb-15 ">
+                                            <div class="row padding-15">
+                                                <div class="col-4 padding-0">
+                                                    <a href="product-details.html">
+                                                        <img src="img/product-img/pro-big-1.jpg">
+                                                    </a>
+                                                </div>
+                                                <div class="col-4 padding-0">
+                                                    <a href="product-details.html">
+                                                        <img src="img/product-img/pro-big-1.jpg">
+                                                    </a>
+                                                </div>
+                                                <div class="col-4 padding-0">
+                                                    <a href="category-automotive.html">
+                                                        <h5 class="more_product text-center">More &nbsp; Product</h5>
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -304,23 +333,33 @@
                                             <a href="company-details.html">
                                                 <h6>Company Name</h6>
                                             </a>
-                                            <p>Make Some Thing </p>
-                                            <a href="category-automotive.html">
-                                                <p class="btn popup">More Product</p>
-                                            </a>
+                                            <p>Category: accommodation, automotive, education, electronics, fashion, food, health & beauty
+                                            </p>
                                         </div>
-                                        <div class="col-4 col-md-4 mb-15">
-                                            <img src="img/product-img/pro-big-1.jpg">
-                                        </div>
-                                        <div class="col-4 col-md-4 mb-15">
-                                            <img src="img/product-img/pro-big-1.jpg">
-                                        </div>
-                                        <div class="col-4 col-md-4 mb-15">
-                                            <img src="img/product-img/pro-big-1.jpg">
+                                        <div class="col-12 container mb-15 ">
+                                            <div class="row padding-15">
+                                                <div class="col-4 padding-0">
+                                                    <a href="product-details.html">
+                                                        <img src="img/product-img/pro-big-1.jpg">
+                                                    </a>
+                                                </div>
+                                                <div class="col-4 padding-0">
+                                                    <a href="product-details.html">
+                                                        <img src="img/product-img/pro-big-1.jpg">
+                                                    </a>
+                                                </div>
+                                                <div class="col-4 padding-0">
+                                                    <a href="category-automotive.html">
+                                                        <h5 class="more_product text-center">++ More &nbsp; Product</h5>
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
+
 
                             <!-- single supplier -->
                             <div class="col-12 col-md-6 mb-30">
@@ -334,53 +373,66 @@
                                             <a href="company-details.html">
                                                 <h6>Company Name</h6>
                                             </a>
-                                            <p>Make Some Thing </p>
-                                            <a href="category-automotive.html">
-                                                <p class="btn popup">More Product</p>
-                                            </a>
+                                            <p>Category: computer & internet technology, education, electronics, fashion, food, health & beauty
+                                            </p>
                                         </div>
-                                        <div class="col-4 col-md-4 mb-15">
-                                            <img src="img/product-img/pro-big-1.jpg">
-                                        </div>
-                                        <div class="col-4 col-md-4 mb-15">
-                                            <img src="img/product-img/pro-big-1.jpg">
-                                        </div>
-                                        <div class="col-4 col-md-4 mb-15">
-                                            <img src="img/product-img/pro-big-1.jpg">
+                                        <div class="col-12 container mb-15 ">
+                                            <div class="row padding-15">
+                                                <div class="col-4 padding-0">
+                                                    <a href="product-details.html">
+                                                        <img src="img/product-img/pro-big-1.jpg">
+                                                    </a>
+                                                </div>
+                                                <div class="col-4 padding-0">
+                                                    <a href="product-details.html">
+                                                        <img src="img/product-img/pro-big-1.jpg">
+                                                    </a>
+                                                </div>
+                                                <div class="col-4 padding-0">
+                                                    <a href="category-automotive.html">
+                                                        <h5 class="more_product text-center">More &nbsp; Product</h5>
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
+
                         </div>
-
                     </div>
 
-                    <!-- Single Company Area -->
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+                    <div class="col-12">
+                        <!-- Pagination -->
+                        <nav aria-label="navigation">
+                            <ul class="pagination justify-content-end mt-50">
+                                <li class="page-item active"><a class="page-link" href="#">01.</a></li>
+                                <li class="page-item"><a class="page-link" href="#">02.</a></li>
+                                <li class="page-item"><a class="page-link" href="#">03.</a></li>
+                                <li class="page-item"><a class="page-link" href="#">04.</a></li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
-
             </div>
-
-
-
-            <div class="col-12">
-                <!-- Pagination -->
-                <nav aria-label="navigation">
-                    <ul class="pagination justify-content-end mt-50">
-                        <li class="page-item active"><a class="page-link" href="#">01.</a></li>
-                        <li class="page-item"><a class="page-link" href="#">02.</a></li>
-                        <li class="page-item"><a class="page-link" href="#">03.</a></li>
-                        <li class="page-item"><a class="page-link" href="#">04.</a></li>
-                    </ul>
-                </nav>
-            </div>
-
         </div>
     </div>
-    </div>
+
     <!-- ##### Main Content Wrapper End ##### -->
 
     <!-- ##### Footer Area Start ##### -->
