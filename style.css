@@ -113,14 +113,14 @@ p {
 .supplier_item {
     height: 280px;
     border-radius: 5px;
-    box-shadow: 1px 4px 3px 1px rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2), 0 1px 3px 0 rgba(0, 0, 0, 0.19);
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
     .supplier_item {
-        height: 280px;
+        height: auto;
         border-radius: 5px;
-        box-shadow: 1px 4px 3px 1px rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2), 0 1px 3px 0 rgba(0, 0, 0, 0.19);
     }
 }
 
@@ -128,7 +128,7 @@ p {
     .supplier_item {
         height: auto;
         border-radius: 5px;
-        box-shadow: 1px 4px 3px 1px rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2), 0 1px 3px 0 rgba(0, 0, 0, 0.19);
     }
     .supplier_item p {
         display: initial;
@@ -349,8 +349,14 @@ z-index: 9999;
 }
 
 .navbar {
-    box-shadow: 0 0 16px 0px rgba(0, 0, 0, 0.075);
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
     height: 60px;
+    z-index: 9999;
 }
 
 
@@ -358,7 +364,6 @@ z-index: 9999;
     position: fixed;
     width: 100vw;
     display: flex;
-    background-color: #242424;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -434,4 +439,28 @@ z-index: 9999;
     padding-left: 50px;
     font-size: 14px;
     color: #6b6b6b;
+}
+
+.company_product_list:last-child {
+    position: relative;
+    width: 100%;
+}
+
+.company_product_list:last-child span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    background-color: #242424;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.company_product_list:last-child h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }

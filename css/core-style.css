@@ -530,6 +530,7 @@ img {
     transition-duration: 500ms;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    margin-top: 60px;
 }
 
 @media only screen and (max-width: 767px) {
